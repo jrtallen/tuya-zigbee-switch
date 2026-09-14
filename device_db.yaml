@@ -6257,12 +6257,12 @@ SWITCH_MOES_TS0003:
   stock_model_name: TS0003
   stock_manufacturer_name: _TZ3000_gykhrpiv
   stock_converter_manufacturer: Tuya
-  stock_converter_model: TS0003_switch_3_gang_with_backlight
+  stock_converter_model: TS0003_switch_3_gang
   override_z2m_device: ZTS-US
   tuya_module: null
   mcu_family: Telink
   mcu: TLSR8258
-  config_str: gykhrpiv;TS0003-custom;BD3u;SC1u;RB5;SD7u;RD4;SC3u;RB4;
+  config_str: gykhrpiv;Moes-3-gang;SB6u;RB5;ID3;SC1u;RB4;ID7;SC4u;RD2;IC0;M;
   alt_config_str: null
   old_manufacturer_names:
   - Tuya-TS0003-custom
