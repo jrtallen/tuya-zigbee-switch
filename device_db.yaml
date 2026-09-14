@@ -6247,3 +6247,28 @@ SWITCH_ZEMISMART_TS0601_6GANG:
   info: Needs pinout. Secondary MCU. 6-gang!
   threads: https://github.com/romasku/tuya-zigbee-switch/issues/209
   store: https://www.zemismart.com/products/tb26-6
+SWITCH_MOES_TS0003:
+  human_name: Moes ZTS-US
+  category: module
+  power: mains
+  neutral: optional
+  output: relay
+  device_type: end_device # enable end device option for poor signal scenarios
+  stock_model_name: TS0003
+  stock_manufacturer_name: _TZ3000_gykhrpiv
+  stock_converter_manufacturer: Tuya
+  stock_converter_model: TS0003_switch_3_gang_with_backlight
+  override_z2m_device: ZTS-US
+  tuya_module: null
+  mcu_family: Telink
+  mcu: TLSR8258
+  config_str: gykhrpiv;TS0003-custom;BD3u;SC1u;RB5;SD7u;RD4;SC3u;RB4;
+  alt_config_str: null
+  old_manufacturer_names:
+  - Tuya-TS0003-custom
+  old_zb_models: null
+  stock_manufacturer_id: 4417
+  stock_image_type: 54179
+  firmware_image_type: 43538
+  build: yes
+  status: mostly_supported
