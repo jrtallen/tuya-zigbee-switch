@@ -265,5 +265,6 @@ Support new devices: [contribute/porting.md](/docs/contribute/porting.md)
 | 🟩 | ✔️ | 🇸 | 🔌 | ➿ | **SL** | `_TZ3000_rbl8c85w` <br> `TS0012` | [Zemismart 2-gang switch 🅱](https://www.zigbee2mqtt.io/devices/TS0012.html) | [`Store`](https://www.zemismart.com/products/kes-606us-z?VariantsId=14160) | [`#022`](https://github.com/romasku/tuya-zigbee-switch/issues/22) | Supported | 
 | 🟧 | ❌️ | 🇸 | 🔌 | 🛜 | **TL** | `_TZE200_r731zlxk` <br> `TS0601` | [Zemismart TB26-6](https://www.zigbee2mqtt.io/devices/TB26-6.html) | [`Store`](https://www.zemismart.com/products/tb26-6) | [`#209`](https://github.com/romasku/tuya-zigbee-switch/issues/209) | Needs pinout. Secondary MCU. 6-gang! | 
 | 🟨 | ✔️ | 🇲 | 🔌 | 🛜 | **TL** | `_TZ3000_gykhrpiv` <br> `TS0003` | [Moes ZTS-US](https://www.zigbee2mqtt.io/devices/ZTS-US.html) |   |   |  | 
+| 🟨 | ✔️ | 🇸 | 🔌 | 🛜 | **TL** | `_TZ3000_09gto2zn` <br> `TS0013` | [Tuya/Girier 3-gang](https://www.zigbee2mqtt.io/devices/ZB08.html) |   |   | Supported | 
 
 Data from [`device_db.yaml`](/device_db.yaml)
