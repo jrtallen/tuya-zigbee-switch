@@ -6272,3 +6272,31 @@ SWITCH_MOES_TS0003:
   firmware_image_type: 43538
   build: yes
   status: mostly_supported
+SWITCH_TUYA_GIRIER_TS0013:
+  human_name: Tuya/Girier 3-gang
+  category: switch
+  power: mains
+  neutral: optional
+  output: relay
+  device_type: end_device
+  stock_model_name: TS0013
+  stock_manufacturer_name: _TZ3000_09gto2zn
+  stock_converter_manufacturer: Tuya
+  stock_converter_model: TS0013_switch_module
+  override_z2m_device: ZB08
+  tuya_module: null
+  mcu_family: Telink
+  mcu: TLSR8258
+  config_str: 09gto2zn;ZB08-custom;BA0u;LD7;SC2u;RC0;SC3u;RB4;SD2u;RB5;
+  alt_config_str: null
+  old_manufacturer_names:
+  - Girier-ZB08-custom
+  - Girier-ZB08-custom-ED
+  old_zb_models:
+  - ZB08-custom-ED
+  stock_manufacturer_id: 4417
+  stock_image_type: 54179
+  firmware_image_type: 43539
+  build: yes
+  status: mostly_supported
+  info: Supported
